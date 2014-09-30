@@ -41,14 +41,14 @@ final class Console
             throw new \BadMethodCallException("The Console Library only run under CLI.");
     }
 
-    public static function Write($message, ...$composes = [])
+    public static function Write($message, ...$composes)
     {
         $composes = $composes? : [];
 
         static::ColorWrite($message, null, ...$composes);
     }
 
-    public static function WriteLine($message, ...$composes = [])
+    public static function WriteLine($message, ...$composes)
     {
         $composes = $composes? : [];
 
@@ -58,7 +58,7 @@ final class Console
     }
     
 
-    public static function ColorWrite($message, $color = null, ...$composes = [])
+    public static function ColorWrite($message, $color = null, ...$composes)
     {
         static::ValidateCLI();
 
@@ -75,7 +75,7 @@ final class Console
         echo Colors::getColoredString($message, $color);
     }
 
-    public static function ColorWriteLine($message, ...$composes = [])
+    public static function ColorWriteLine($message, ...$composes)
     {
         $composes = $composes? : [];
 
