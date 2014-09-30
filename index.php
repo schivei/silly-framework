@@ -1,7 +1,8 @@
 <?php
 
 include_once './silly/libraries/cli/Colors.php';
+include_once './silly/libraries/cli/Console.php';
 
-use \silly\libraries\cli\Colors as Color;
+use \silly\libraries\cli;
 
-echo Color::getColoredString("Teste", Color::FG_CYAN) . "\n" . PHP_OS . "\n";
+cli\Console::ColorWrite("Teste", cli\Colors::FG_GREEN);
