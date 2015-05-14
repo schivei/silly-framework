@@ -1,0 +1,33 @@
+{
+    "name": "schivei/silly-framework",
+    "type": "library",
+    "description": "Silly Framework is a simple PHP framework",
+    "keywords": ["framework","modular","libraries","parser","services"],
+    "homepage": "https://schivei.github.io/silly-framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Elton Schivei Costa",
+            "email": "costa@elton.schivei.nom.br",
+            "homepage": "http://elton.schivei.nom.br"
+        },
+        {
+            "name": "Iara Maria Cordeiro Silva",
+            "email": "cordeiroiarahk@gmail.com",
+            "homepage": "https://github.com/AraiBlue"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "version": "0.0.1",
+    "dist": {
+        "url": "https://github.com/schivei/silly-framework",
+        "type": "vcs"
+    },
+    "autoload": {
+        "psr-0": {
+            "Silly": "."
+        }
+    }
+}

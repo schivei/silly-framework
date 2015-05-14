@@ -1,4 +1,6 @@
-silly-framework
+Silly Framework
 ===============
 
-A simple, small and easy PHP framework.
+Silly Framework is a simple PHP framework
+
+[![Build Status](https://travis-ci.org/schivei/silly-framework.png)](https://travis-ci.org/schivei/silly-framework)
